@@ -18,7 +18,7 @@ import {
   faYoutube,
   faMailchimp,
 } from "@fortawesome/free-brands-svg-icons";
-import Logo from "../assets/logo-saujana-small.png";
+import Logo from "../assets/Logo KKN.svg";
 import logo from "../assets/logo-saujana-big.png";
 // import festival_footer from "../assets/footer/festival-gm-footer.svg";
 // import ornament_footer from "../assets/footer/ornament-footer.svg";
@@ -27,7 +27,7 @@ import logo from "../assets/logo-saujana-big.png";
 
 const footer = () => {
   return (
-    <footer className=" bg-[#374259] z-100 xl:px-10 py-8">
+    <footer className=" bg-[#4d6a6d] z-100 xl:px-10 py-8">
       <div className="flex flex-row">
         <div className="container mx-auto px-2 text-left sm:w-auto xl:w-full h-full">
           <div className="mx-4 flex justify-evenly gap-y-2 xl:flex-row xl:items-start flex-col gap-8 mobile:text-2xl">
@@ -39,18 +39,18 @@ const footer = () => {
                   className="transition-all xl:hidden xl:h-28 xl:scale-[1.4]"
                 />
                 <img
-                  src={logo}
+                  src={Logo}
                   alt=""
                   className=" hidden transition-all xl:inline-flex xl:h-28 xl:scale-[1.4]"
                 />
                 <span className="hidden xl:block">
                   <p className="">
                     <span className="font-bold content-left text-lg xl:text-xl text-white">
-                      DESA GIRIREJO
+                      DESA BIMOREJO
                     </span>
                     <br />
                     <span className="text-center xl:content-left text-md xl:text-lg text-white">
-                      Kecamatan Ngablak, Kabupaten Magelang, Jawa Tengah, 56194
+                      Kecamatan Wongsorejo, Kabupaten Banyuwangi, Jawa Timur
                     </span>
                   </p>
                 </span>
@@ -60,10 +60,10 @@ const footer = () => {
               </div>
               <span className="xl:hidden">
                 <p className="font-bold text-center text-lg text-white lg:mt-6">
-                  DESA GIRIREJO
+                  DESA BIMOREJO
                 </p>
                 <p className="text-center text-base text-white lg:mt-6 mb-2">
-                  Kecamatan Ngablak, Kabupaten Magelang, Jawa Tengah, 56194
+                  Kecamatan Wongsorejo, Kabupaten Banyuwangi, Jawa Timur
                 </p>
               </span>
             </div>
@@ -113,7 +113,7 @@ const footer = () => {
               <div className="flex flex-col gap-2">
                 <p className="font-bold">Hubungi Kami</p>
                 <a
-                  href={"https://wa.me/6281392136199"}
+                  href={"https://wa.me/6282257223474"}
                   rel="noreferrer"
                   target="_blank"
                   className="group w-fit transition-colors hover:text-yellow-500"
@@ -125,10 +125,10 @@ const footer = () => {
                     className="transition-all  group-hover:text-yellow-500"
                   ></FontAwesomeIcon>{" "}
                   Whatsapp
-                  <p>(+62)813-9213-6199 (Priyo)</p>
+                  <p>(+62)822-5722-3474 (Fatin)</p>
                 </a>
                 <a
-                  href={"mailto:dsgirirejongablak@gmail.com"}
+                  href={"mailto:kknwongsorejo23@gmail.com"}
                   rel="noreferrer"
                   target="_blank"
                   className="group w-fit transition-colors hover:text-yellow-500"
@@ -140,7 +140,22 @@ const footer = () => {
                     className="transition-all group-hover:text-yellow-500"
                   ></FontAwesomeIcon>{" "}
                   Email
-                  <p>dsgirirejongablak@gmail.com</p>
+                  <p>kknwongsorejo23@gmail.com</p>
+                </a>
+                <a
+                  href={"https://www.instagram.com/kknugm.wongsorejo"}
+                  rel="noreferrer"
+                  target="_blank"
+                  className="group w-fit transition-colors hover:text-yellow-500"
+                >
+                  <FontAwesomeIcon
+                    icon={faInstagram}
+                    color="white"
+                    size="1x"
+                    className="transition-all  group-hover:text-yellow-500"
+                  ></FontAwesomeIcon>{" "}
+                  Instagram
+                  <p>kknugm.wongsorejo</p>
                 </a>
                 {/* <p>
                   (+62)813-9213-6199 (Priyo)
@@ -154,7 +169,7 @@ const footer = () => {
             </div>
             {/* <div> */}
             <p className="content-left text-xs text-white mt-4 xl:mt-6">
-              Developed by Tim KKN Saujana Ngablak 2023
+              Developed by Tim KKN Bahari Wongsorejo 2023
             </p>
             {/* </div> */}
           </div>

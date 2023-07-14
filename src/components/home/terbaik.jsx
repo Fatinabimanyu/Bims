@@ -69,12 +69,12 @@ const Terbaik = () => {
           <div className="font-black pointer-events-none">
             <div className="mt-1 justify-center sm:gap-1.5 md:gap-1 xl:gap-1 mobile:gap-1.5">
               <div className="text-[#545B77] font-Satisfy text-2xl xl:text-4xl font-bold mb-1 text-center">
-                Terbaik dari Girirejo
+                Terbaik dari Bimorejo
               </div>
             </div>
           </div>
           <div className="text-[#545B77] sm:text-base xl:text-xl text-center mb-10">
-            Telusuri lebih lanjut tentang apa yang kami tawarkan.
+            Telusuri lebih lanjut tentang apa yang kita punyai.
           </div>
           <Slider {...settings} className="">
             <div className="px-4">
@@ -95,7 +95,7 @@ const Terbaik = () => {
             </div>
             <div className="px-4">
               {/* <h3>2</h3> */}
-              <img className="rounded-2xl" src={gambar2} alt="rectangle"></img>
+              <img className="rounded-2xl" src={gambar1} alt="rectangle"></img>
             </div>
             <div className="px-4">
               {/* <h3>2</h3> */}
