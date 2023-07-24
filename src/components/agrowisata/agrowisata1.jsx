@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import gambar1 from "../../assets/agrowisata/via-gogik.png";
-import gambar2 from "../../assets/agrowisata/via-pendem.png";
-import gambar3 from "../../assets/agrowisata/via-sawit.png";
+import gambar1 from "../../assets/agrowisata/pantai awan.JPG";
+import gambar2 from "../../assets/agrowisata/sunrise.JPG";
+import gambar3 from "../../assets/agrowisata/sunsetp.jpg";
 import map_muncak from "../../assets/agrowisata/map-muncak.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -86,43 +86,46 @@ const Agrowisata1 = () => {
           <div className="font-black pointer-events-none">
             <div className="mt-1 justify-center sm:gap-1.5 md:gap-1 xl:gap-1 mobile:gap-1.5">
               <div className="text-[#545B77] font-Satisfy text-2xl sm:text-3xl xl:text-4xl font-bold text-center mb-6">
-                Rute Pendakian Gunung Andong
+                Pantai Bimorejo
               </div>
             </div>
           </div>
-          <div className="container flex-col xl:flex-row flex items-center justify-center">
-            <div
-              className="transform hover:transition-all hover:scale-[110%] pb-4 xl:pb-0 px-4"
-              onClick={handlePendem}
-            >
-              <img className="" src={gambar2} alt="pendem"></img>
+          <Slider {...settings} className="">
+            <div className="px-4">
+              <img className="rounded-2xl" src={gambar1} alt="rectangle"></img>
             </div>
-            <div
-              className="transform hover:transition-all hover:scale-[110%] pb-4 xl:pb-0 px-4"
-              onClick={handleGogik}
-            >
-              <img className="" src={gambar1} alt="gogik"></img>
+            <div className="px-4">
+              <img className="rounded-2xl" src={gambar2} alt="rectangle"></img>
             </div>
-            <div
-              className="transform hover:transition-all hover:scale-[110%] pb-4 xl:pb-0 px-4"
-              onClick={handleSawit}
-            >
-              <img className="" src={gambar3} alt="sawit"></img>
+            <div className="px-4">
+              <img className="rounded-2xl" src={gambar3} alt="rectangle"></img>
             </div>
-          </div>
+            <div className="px-4">
+              <img className="rounded-2xl" src={gambar1} alt="rectangle"></img>
+            </div>
+            <div className="px-4">
+              <img className="rounded-2xl" src={gambar2} alt="rectangle"></img>
+            </div>
+            <div className="px-4">
+              <img className="rounded-2xl" src={gambar3} alt="rectangle"></img>
+            </div>
+          </Slider>
         </div>
-        <div className="text-justify flex-col flex xl:flex-row xl:mt-10 items-center justify-center xl:px-10">
-          <div className="text-[#545B77] sm:text-base xl:text-xl xl:w-2/3 xl:mr-10 mb-4 xl:mb-0">
-            Destinasi Gunung Andong memiliki tiga jalur pendakian.
-            <br />
-            Setiap jalur pendakian memiliki karakteristik yang berbeda. Dalam
-            satu lokasi, anda bisa mendapatkan tiga pengalaman yang berbeda
-            tergantung dari rute pendakian yang anda pilih.
-          </div>
-          <div className="xl:pb-0 items-center justify-center flex">
-            {/* <h3>2</h3> */}
-            <img className="" src={map_muncak} alt="rectangle"></img>
-          </div>
+      </div>
+      <div className="text-justify flex-col flex xl:flex-row xl:mt-10 items-center justify-center xl:px-10">
+        <div className="text-[#545B77] sm:text-base xl:text-xl xl:w-2/3 xl:mr-10 mb-4 xl:mb-0">
+          Destinasi Pantai Bimorejo memiliki pemandangan langit yang layak
+          dinikmati.
+          <br />
+          Setiap waktu pagi, siang dan sore memiliki karakteristik pemandangan
+          yang berbeda. Dalam satu lokasi, anda bisa mendapatkan tiga
+          pemandangan langit yang sangat indah tergantung dari jam kedatangan
+          yang anda pilih. Dari berbagai keindahan langi ada 2 waktu dimana
+          keindahan lagitnya sangat layak untuk diabadikan
+        </div>
+        <div className="xl:pb-0 items-center justify-center flex">
+          {/* <h3>2</h3> */}
+          <img className="" src={map_muncak} alt="rectangle"></img>
         </div>
       </div>
     </div>

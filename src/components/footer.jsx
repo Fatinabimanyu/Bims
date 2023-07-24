@@ -163,18 +163,15 @@ const footer = () => {
                   dsgirirejongablak@gmail.com
                 </p> */}
               </div>
-              {/* <p className="content-left text-sm text-white lg:mt-6">
-                &copy; Tim KKN Saujana Ngablak 2023
-              </p> */}
             </div>
             {/* <div> */}
-            <p className="content-left text-xs text-white mt-4 xl:mt-6">
-              Developed by Tim KKN Bahari Wongsorejo 2023
-            </p>
             {/* </div> */}
           </div>
         </div>
       </div>
+      <p className="text-xs text-white bg-[#4d6a6d] mt-3 py-2">
+        Developed by Tim KKN-PPM UGM - Bahari Wongsorejo 2023
+      </p>
     </footer>
   );
 };

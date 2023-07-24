@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import Agrowisata from "./pages/Agrowisata";
 import Umkm from "./pages/Umkm";
 import Footer from "./components/footer";
+import Budaya from "./pages/Budaya";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/agrowisata" element={<Agrowisata />} />
         <Route path="/umkm" element={<Umkm />} />
+        <Route path="/budaya" element={<Budaya />} />
       </Routes>
       <Footer />
     </div>

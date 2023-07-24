@@ -1,7 +1,10 @@
 import { useState, React, Component } from "react";
 import { Link } from "react-router-dom";
-import gambar1 from "../../assets/home/makam.png";
-import gambar2 from "../../assets/home/basecamp.png";
+import gambar1 from "../../assets/home/Kantor Desa.png";
+import gambar2 from "../../assets/home/p.jpg";
+import gambar3 from "../../assets/home/Sunrise.png";
+import gambar4 from "../../assets/home/Sunset.png";
+
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "slick-carousel/slick/slick.css";
@@ -95,11 +98,11 @@ const Terbaik = () => {
             </div>
             <div className="px-4">
               {/* <h3>2</h3> */}
-              <img className="rounded-2xl" src={gambar1} alt="rectangle"></img>
+              <img className="rounded-2xl" src={gambar3} alt="rectangle"></img>
             </div>
             <div className="px-4">
               {/* <h3>2</h3> */}
-              <img className="rounded-2xl" src={gambar2} alt="rectangle"></img>
+              <img className="rounded-2xl" src={gambar4} alt="rectangle"></img>
             </div>
           </Slider>
         </div>

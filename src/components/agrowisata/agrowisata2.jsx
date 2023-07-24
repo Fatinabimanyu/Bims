@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import gambar1 from "../../assets/agrowisata/Sawit_Top.jpg";
-import gambar2 from "../../assets/agrowisata/Sawit_Big.jpg";
-import gambar3 from "../../assets/agrowisata/Sawit_Sm.jpg";
+import gambar1 from "../../assets/agrowisata/sunrise.JPG";
+import gambar2 from "../../assets/agrowisata/sunriseme.JPG";
+import gambar3 from "../../assets/agrowisata/sunrisee.jpg";
 import map_muncak from "../../assets/agrowisata/map-muncak.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -67,23 +67,25 @@ const Agrowisata3 = () => {
           <div className="pointer-events-none">
             <div className="mt-1 sm:gap-1.5 md:gap-1 xl:gap-1 mobile:gap-1.5">
               <div className="font-black text-[#FFFDEC] font-Satisfy text-2xl sm:text-3xl text-justify xl:text-4xl mb-3">
-                Rute Pendakian Gunung Andong
-                <br />
-                Via Sawit
+                Sunrise di Pantai Bimorejo
               </div>
               <div className="rounded-xl bg-[#FFFDEC] text-justify p-3 mb-3 xl:hidden">
-                <p className="text-light-blue font-bold">
-                  Tiket Pendakian: 25.000
-                </p>
+                <p className="text-light-blue font-bold">Tiket Masuk: 2.000</p>
               </div>
               <p className="text-justify xl:hidden">
-                Rute pendakian via Sawit sangat cocok bagi anda pendaki gunung
-                pemula karena jalur ini telah disusun sedemikian rupa untuk
-                memudahkan para pendaki untuk menikmati alam selama perjalanan
-                untuk mencapai puncak Gunung Andong. Anda tidak perlu khawatir
-                kelelahan karena terdapat beberapa pos yang menyediakan tempat
-                beristirahat, toilet bahkan beberapa warung untuk mengisi
-                energi.
+                Jika anda datang ke Pantai Bimorejo pada saat matahari terbit
+                antara jam 5-6 pagi. Anda akan disambut dengan panorama yang
+                memukau, langitnya sangat indah dengan gradasi warna-warna dari
+                oranye, kuning, hingga merah yang mempesona. Pemandangan ini
+                menciptakan suasana yang magis dan tak terlupakan, memberikan
+                pengalaman yang mendalam bagi jiwa yang mencintai keindahan
+                alam. Rasakan kedamaian dan keajaiban alam ini saat sinar
+                matahari muncul di balik cakrawala, menyinari pantulan ombak
+                yang berkilauan di permukaan air laut. Tak ada kata yang bisa
+                menggambarkan sepenuhnya betapa memesonanya momen ketika langit
+                di Pantai Bimorejo sangat indah saat matahari terbit. Hanya
+                dengan datang dan menyaksikannya sendiri, Anda akan tersihir dan
+                terpesona oleh pesona alam yang luar biasa ini.
               </p>
             </div>
           </div>
@@ -91,15 +93,22 @@ const Agrowisata3 = () => {
             <div className="xl:row-span-1 hidden xl:block text-xl text-justify">
               <div className="rounded-xl bg-[#FFFDEC] text-justify p-3 mb-3 hidden xl:flex">
                 <p className="text-light-blue font-bold">
-                  Tiket Pendakian: 25.000
+                  Tiket Masuk: 2.000 (Parkir)
                 </p>
               </div>
-              Rute pendakian via Sawit sangat cocok bagi anda pendaki gunung
-              pemula karena jalur ini telah disusun sedemikian rupa untuk
-              memudahkan para pendaki untuk menikmati alam selama perjalanan
-              untuk mencapai puncak Gunung Andong. Anda tidak perlu khawatir
-              kelelahan karena terdapat beberapa pos yang menyediakan tempat
-              beristirahat, toilet bahkan beberapa warung untuk mengisi energi.
+              Jika anda datang ke Pantai Bimorejo pada saat matahari terbit
+              antara jam 5-6 pagi. Anda akan disambut dengan panorama yang
+              memukau, langitnya sangat indah dengan gradasi warna-warna dari
+              oranye, kuning, hingga merah yang mempesona. Pemandangan ini
+              menciptakan suasana yang magis dan tak terlupakan, memberikan
+              pengalaman yang mendalam bagi jiwa yang mencintai keindahan alam.
+              Rasakan kedamaian dan keajaiban alam ini saat sinar matahari
+              muncul di balik cakrawala, menyinari pantulan ombak yang
+              berkilauan di permukaan air laut. Tak ada kata yang bisa
+              menggambarkan sepenuhnya betapa memesonanya momen ketika langit di
+              Pantai Bimorejo sangat indah saat matahari terbit. Hanya dengan
+              datang dan menyaksikannya sendiri, Anda akan tersihir dan
+              terpesona oleh pesona alam yang luar biasa ini.
             </div>
             <div className="xl:row-span-1 flex justify-center transform xl:pb-0 col-span-2 xl:col-span-1">
               <img

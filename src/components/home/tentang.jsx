@@ -26,7 +26,6 @@ const Tentang = () => {
               </p>
             </div>
           </div>
-
           <div className="text-justify text-[#545B77] sm:text-base xl:text-xl">
             Hai
             <br />
@@ -38,8 +37,7 @@ const Tentang = () => {
             <br />
             Penjelasan
           </div>
-
-          <Link to="/tentang">
+          <Link to="/pasar-rakyat">
             <button
               onClick={() => {
                 window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
@@ -58,7 +56,7 @@ const Tentang = () => {
         >
           <iframe
             className="container h-[400px]"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31612.43265609404!2d114.39391041877934!3d-7.941550633893535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd13b9bfe2ee021%3A0xbf1a0eac89a0861!2sBimorejo%2C%20Wongsorejo%2C%20Banyuwangi%20Regency%2C%20East%20Java!5e0!3m2!1sen!2sid!4v1688999110674!5m2!1sen!2sid"
+            src="//www.arcgis.com/apps/Embed/index.html?webmap=25eadbb4d7f34163a43d951ef30dd04d&extent=114.3838,-7.9632,114.4454,-7.9267&zoom=true&previewImage=false&scale=true&disable_scroll=true&theme=light"
             style={{ border: 0 }}
             allowfullscreen=""
             loading="lazy"
