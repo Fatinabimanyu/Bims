@@ -72,7 +72,7 @@ const Terbaik = () => {
           <div className="font-black pointer-events-none">
             <div className="mt-1 justify-center sm:gap-1.5 md:gap-1 xl:gap-1 mobile:gap-1.5">
               <div className="text-[#545B77] font-Satisfy text-2xl xl:text-4xl font-bold mb-1 text-center">
-                Terbaik dari Bimorejo
+                Terbaik dari Sumberkencono
               </div>
             </div>
           </div>

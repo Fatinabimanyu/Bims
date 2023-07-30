@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import gambar1 from "../../assets/agrowisata/sunset1.jpg";
-import gambar2 from "../../assets/agrowisata/sunsetp.jpg";
-import gambar3 from "../../assets/agrowisata/sunsett.jpg";
+import gambar1 from "../../assets/agrowisata/pai.jpg";
+import gambar2 from "../../assets/agrowisata/pant.jpg";
+import gambar3 from "../../assets/agrowisata/pantaii.jpg";
 import map_muncak from "../../assets/agrowisata/map-muncak.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -122,47 +122,37 @@ const Agrowisata3 = () => {
           <div className="pointer-events-none" id="pendem">
             <div className="mt-1 sm:gap-1.5 md:gap-1 xl:gap-1 mobile:gap-1.5">
               <div className="font-black text-dark-blue font-Satisfy text-2xl sm:text-3xl text-right xl:text-4xl mb-3">
-                Sunset di Bimorejo
+                Pantai Sumberkencono
               </div>
               <div className="rounded-xl bg-dark-blue text-justify p-3 mb-3 xl:hidden">
-                <p className="text-basic font-bold">
-                  Tiket Masuk: 2.000 (Parkir)
-                </p>
+                <p className="text-basic font-bold">Tiket Masuk: Gratis</p>
               </div>
               <p className="text-justify xl:hidden">
-                Sore hari di Pantai Bimo dengan suara deburan ombak yang tenang,
-                perpaduan dengan angin lembut yang mengusap wajah, menciptakan
-                kesan kedamaian dan ketenangan. Anda akan merasa seolah waktu
-                berhenti sejenak, memberikan kesempatan untuk menikmati kuliner
-                bimorejo dan keindahan alam semesta yang menakjubkan ini. Tak
-                hanya panorama alam yang memikat, tetapi Pantai Bimorejo juga
-                menyajikan beragam aktivitas menarik untuk Anda nikmati.
-                Berjalan-jalan di tepi pantai, bermain pasir, atau sekadar
-                menikmati momen romantis bersama orang terkasih, semuanya
-                menjadi lebih istimewa saat diselimuti oleh keindahan langit
-                senja yang begitu memesona.
+                Pantai ini terletak didalam Yayasan Sunan Kalijaga. Jika anda
+                mengunjungi pantai ini maka pastinya anda akan bertemu dengan
+                banyak santri santri dari Pondok Pesantren Sunan Kaiijaga ini
+                sendiri. Pemandangan langit yang disajikan di pantai ini sangat
+                indah dan layak dinikmati baik sendri maupun bersama orang lain.
+                Tidak hanya pemandangan langitnya ayunan ombak yang tercipta di
+                pantai ini juga tenang dan bisa membuat suasana hati ikut
+                tenang.
               </p>
             </div>
           </div>
           <div className="container grid grid-cols-2 xl:grid-cols-2 mt-3 gap-4 pt-4">
             <div className="xl:row-span-1 hidden xl:block text-xl text-justify text-dark-blue">
               <div className="rounded-xl bg-dark-blue text-justify p-3 mb-3 hidden xl:flex">
-                <p className="text-basic font-bold">
-                  Tiket Masuk: 2.000 (Parkir)
-                </p>
+                <p className="text-basic font-bold">Tiket Masuk: Gratis</p>
               </div>
               <p>
-                Sore hari di Pantai Bimo dengan suara deburan ombak yang tenang,
-                perpaduan dengan angin lembut yang mengusap wajah, menciptakan
-                kesan kedamaian dan ketenangan. Anda akan merasa seolah waktu
-                berhenti sejenak, memberikan kesempatan untuk menikmati kuliner
-                bimorejo dan keindahan alam semesta yang menakjubkan ini. Tak
-                hanya panorama alam yang memikat, tetapi Pantai Bimorejo juga
-                menyajikan beragam aktivitas menarik untuk Anda nikmati.
-                Berjalan-jalan di tepi pantai, bermain pasir, atau sekadar
-                menikmati momen romantis bersama orang terkasih, semuanya
-                menjadi lebih istimewa saat diselimuti oleh keindahan langit
-                senja yang begitu memesona.
+                Pantai ini terletak didalam Yayasan Sunan Kalijaga. Jika anda
+                mengunjungi pantai ini maka pastinya anda akan bertemu dengan
+                banyak santri santri dari Pondok Pesantren Sunan Kaiijaga ini
+                sendiri. Pemandangan langit yang disajikan di pantai ini sangat
+                indah dan layak dinikmati baik sendri maupun bersama orang lain.
+                Tidak hanya pemandangan langitnya ayunan ombak yang tercipta di
+                pantai ini juga tenang dan bisa membuat suasana hati ikut
+                tenang.
               </p>
             </div>
             <div className="xl:row-span-1 flex justify-center transform xl:pb-0 col-span-2 xl:col-span-1">

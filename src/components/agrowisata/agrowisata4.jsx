@@ -1,8 +1,9 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import gambar1 from "../../assets/agrowisata/gunung.png";
-import gambar2 from "../../assets/agrowisata/gunung2.png";
-import gambar3 from "../../assets/agrowisata/sunset3.jpg";
+import gambar1 from "../../assets/agrowisata/sawah11.JPG";
+import gambar2 from "../../assets/agrowisata/jagung.JPG";
+import gambar3 from "../../assets/agrowisata/sawah12.JPG";
+import gambar4 from "../../assets/agrowisata/saww.JPG";
 import map_muncak from "../../assets/agrowisata/map-muncak.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -101,26 +102,20 @@ const Agrowisata4 = () => {
               <img className="rounded-2xl" src={gambar3} alt="rectangle"></img>
             </div>
             <div className="px-4">
-              <img className="rounded-2xl" src={gambar1} alt="rectangle"></img>
-            </div>
-            <div className="px-4">
-              <img className="rounded-2xl" src={gambar2} alt="rectangle"></img>
-            </div>
-            <div className="px-4">
-              <img className="rounded-2xl" src={gambar3} alt="rectangle"></img>
+              <img className="rounded-2xl" src={gambar4} alt="rectangle"></img>
             </div>
           </Slider>
         </div>
       </div>
       <div className="text-justify flex-col flex xl:flex-row xl:mt-10 items-center justify-center xl:px-10">
         <div className="text-[#545B77] sm:text-base xl:text-xl xl:w-2/3 xl:mr-10 mb-4 xl:mb-0">
-          Bimorejo memiliki daerah pesawahan yang sangat luas.
+          Sumberkencono memiliki daerah pesawahan yang sangat luas.
           <br />
-          Banyaknya pesawahan di Bimorejo ini juga dilengkapi dengan pemandangan
-          yang sangat memanjakan mata. Mayoritas para petani disni menamam
-          bawang pada sawah mereka terutama pada bawang merah. Tak hanya pada
-          bawang berah mereka juga menaman rumput rumputan, padi, jagung dan
-          masih banyak lainnya.
+          Banyaknya pesawahan di Sumberkencono ini juga dilengkapi dengan
+          pemandangan yang sangat memanjakan mata. Mayoritas para petani disni
+          menamam bawang pada sawah mereka terutama pada bawang merah. Tak hanya
+          pada bawang berah mereka juga menaman rumput rumputan, padi, jagung
+          dan masih banyak lainnya.
         </div>
         <div className="xl:pb-0 items-center justify-center flex">
           {/* <h3>2</h3> */}

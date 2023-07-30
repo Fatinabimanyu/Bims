@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import gambar1 from "../../assets/agrowisata/gogik_a.jpg";
-import gambar2 from "../../assets/budaya/pawai.jpg";
+import gambar2 from "../../assets/budaya/lamp.jpg";
 import gambar3 from "../../assets/agrowisata/gogik_c.jpg";
 import map_muncak from "../../assets/agrowisata/map-muncak.png";
 import AOS from "aos";
@@ -68,7 +68,7 @@ const Budaya1 = () => {
                 Kegiatan Warga
               </div>
               <div className="font-bold text-xl text-left mb-2 xl:hidden">
-                Pawai obor
+                Pawai Lampion
               </div>
               {/* <div className="rounded-xl bg-[#FFFDEC] text-justify p-3 mb-3 xl:hidden">
                 <p className="text-light-blue font-bold">
@@ -76,8 +76,8 @@ const Budaya1 = () => {
                 </p>
               </div> */}
               <p className="text-justify xl:hidden">
-                Pawai obor dilaksanakan dalam rangka memperingati rangkaian hari
-                hari besar di daerah Bimorejo ini. Biasanya pawai obor
+                Pawai lampion dilaksanakan dalam rangka memperingati rangkaian
+                hari hari besar di Desa Sumberkencono ini. Biasanya pawai obor
                 dilaksanakan mengelilingi Desa Bimorejo dengan para waga dari TK
                 hingga dewasa sambil membawa obor. Contoh pelaksanaanya pada
                 saat malam menuju Idul Adha.

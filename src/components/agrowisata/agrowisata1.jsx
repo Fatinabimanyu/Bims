@@ -1,8 +1,12 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import gambar1 from "../../assets/agrowisata/pantai awan.JPG";
-import gambar2 from "../../assets/agrowisata/sunrise.JPG";
-import gambar3 from "../../assets/agrowisata/sunsetp.jpg";
+import gambar1 from "../../assets/agrowisata/pantai.jpg";
+import gambar2 from "../../assets/agrowisata/pa.jpg";
+import gambar3 from "../../assets/agrowisata/pano.JPG";
+import gambar4 from "../../assets/agrowisata/pant.jpg";
+import gambar5 from "../../assets/agrowisata/saw.JPG";
+import gambar6 from "../../assets/agrowisata/masuk.jpg";
+
 import map_muncak from "../../assets/agrowisata/map-muncak.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -86,7 +90,7 @@ const Agrowisata1 = () => {
           <div className="font-black pointer-events-none">
             <div className="mt-1 justify-center sm:gap-1.5 md:gap-1 xl:gap-1 mobile:gap-1.5">
               <div className="text-[#545B77] font-Satisfy text-2xl sm:text-3xl xl:text-4xl font-bold text-center mb-6">
-                Pantai Bimorejo
+                Agrowisata Sumberkencono
               </div>
             </div>
           </div>
@@ -101,31 +105,22 @@ const Agrowisata1 = () => {
               <img className="rounded-2xl" src={gambar3} alt="rectangle"></img>
             </div>
             <div className="px-4">
-              <img className="rounded-2xl" src={gambar1} alt="rectangle"></img>
-            </div>
-            <div className="px-4">
-              <img className="rounded-2xl" src={gambar2} alt="rectangle"></img>
-            </div>
-            <div className="px-4">
-              <img className="rounded-2xl" src={gambar3} alt="rectangle"></img>
+              <img className="rounded-2xl" src={gambar5} alt="rectangle"></img>
             </div>
           </Slider>
         </div>
       </div>
       <div className="text-justify flex-col flex xl:flex-row xl:mt-10 items-center justify-center xl:px-10">
         <div className="text-[#545B77] sm:text-base xl:text-xl xl:w-2/3 xl:mr-10 mb-4 xl:mb-0">
-          Destinasi Pantai Bimorejo memiliki pemandangan langit yang layak
-          dinikmati.
+          Sumber Kencono memiliki beberapa tempat yang sangat menarik untuk
+          didatangani.
           <br />
-          Setiap waktu pagi, siang dan sore memiliki karakteristik pemandangan
-          yang berbeda. Dalam satu lokasi, anda bisa mendapatkan tiga
-          pemandangan langit yang sangat indah tergantung dari jam kedatangan
-          yang anda pilih. Dari berbagai keindahan langi ada 2 waktu dimana
-          keindahan lagitnya sangat layak untuk diabadikan
+          Tempat tempat ini bisa dikunjungi semua kalangan selama menghabiskan
+          waktu di Desa Sumberkencono.
         </div>
         <div className="xl:pb-0 items-center justify-center flex">
           {/* <h3>2</h3> */}
-          <img className="" src={map_muncak} alt="rectangle"></img>
+          <img className="rounded-2xl" src={gambar6} alt="rectangle"></img>
         </div>
       </div>
     </div>
