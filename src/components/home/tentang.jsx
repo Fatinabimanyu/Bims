@@ -22,7 +22,7 @@ const Tentang = () => {
           <div className="sm:text-3xl md:text-4xl lg:text-5xl xl:mb-5 xl:text-5xl pointer-events-none">
             <div className="mt-1 flex flex-row sm:gap-1.5 md:gap-1 xl:gap-1 mobile:gap-1.5">
               <p className="font-Satisfy text-[#545B77] mobile:text-2xl font-bold mb-3">
-                Sekilas Sumberkencono
+                Sekilas Bimorejo
               </p>
             </div>
           </div>
@@ -56,7 +56,7 @@ const Tentang = () => {
         >
           <iframe
             className="container h-[400px]"
-            src="//www.arcgis.com/apps/Embed/index.html?webmap=7bbe1567e6c54352b4cc80d757a3f561&extent=114.2653,-8.0218,114.5116,-7.8757&zoom=true&previewImage=false&scale=true&disable_scroll=true&theme=light"
+            src="//www.arcgis.com/apps/Embed/index.html?webmap=25eadbb4d7f34163a43d951ef30dd04d&extent=114.3838,-7.9632,114.4454,-7.9267&zoom=true&previewImage=false&scale=true&disable_scroll=true&theme=light"
             style={{ border: 0 }}
             allowfullscreen=""
             loading="lazy"

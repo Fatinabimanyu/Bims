@@ -18,7 +18,7 @@ import {
   faYoutube,
   faMailchimp,
 } from "@fortawesome/free-brands-svg-icons";
-import Logo from "../assets/LOGO KKN.png";
+import Logo from "../assets/Logo KKN.svg";
 import logo from "../assets/logo-saujana-big.png";
 // import festival_footer from "../assets/footer/festival-gm-footer.svg";
 // import ornament_footer from "../assets/footer/ornament-footer.svg";
@@ -27,7 +27,7 @@ import logo from "../assets/logo-saujana-big.png";
 
 const footer = () => {
   return (
-    <footer className=" bg-[#272727] z-100 xl:px-10 py-8">
+    <footer className=" bg-[#4d6a6d] z-100 xl:px-10 py-8">
       <div className="flex flex-row">
         <div className="container mx-auto px-2 text-left sm:w-auto xl:w-full h-full">
           <div className="mx-4 flex justify-evenly gap-y-2 xl:flex-row xl:items-start flex-col gap-8 mobile:text-2xl">
@@ -88,7 +88,15 @@ const footer = () => {
                 >
                   Agrowisata dan Pariwisata
                 </Link>
-
+                <Link
+                  onClick={() => {
+                    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+                  }}
+                  to="/teater"
+                  className="w-fit transition-colors hover:text-yellow-500 mobile:text-xl"
+                >
+                  UMKM
+                </Link>
                 <Link
                   onClick={() => {
                     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
@@ -161,7 +169,7 @@ const footer = () => {
           </div>
         </div>
       </div>
-      <p className="text-xs text-white bg-[#272727] mt-3 py-2">
+      <p className="text-xs text-white bg-[#4d6a6d] mt-3 py-2">
         Developed by Tim KKN-PPM UGM - Bahari Wongsorejo 2023
       </p>
     </footer>

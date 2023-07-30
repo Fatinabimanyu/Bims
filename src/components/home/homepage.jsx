@@ -16,10 +16,10 @@ const Homepage = () => {
         <p className="font-Montserrat text-left font-bold text-2xl mb-4 sm:text-2xl md:text-3xl lg:text-6xl">
           SELAMAT DATANG
           <br />
-          DI SUMBERKENCONO
+          DI BIMOREJO
         </p>
         <p className="text-left sm:text-lg md:text-xl">
-          Jelajahi keindahan alam dan keistimewaan desa Sumberkencono
+          Jelajahi keindahan alam dan keistimewaan desa Bimorejo
         </p>
       </div>
     </>
